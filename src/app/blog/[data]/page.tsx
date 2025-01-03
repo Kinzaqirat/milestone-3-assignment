@@ -5,6 +5,7 @@ import Image from 'next/image'
 import rich from "../../../public/richdad.png"
 import power from "../../../public/power.png"
 import atomic from "../../../public/atomic.png"
+import Comment from '@/components/comment'
 
 export default function BlogData() {
     const {data}= useParams();
@@ -57,7 +58,7 @@ export default function BlogData() {
   
 
 </div>
-
+{/* <Comment/> */}
 
 </div>
   )
